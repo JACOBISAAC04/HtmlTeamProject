@@ -69,8 +69,6 @@ nav{
     
 }
 
-/* PART 3 START */
-
 .search input{
     background: transparent;
     width: 500px;
@@ -93,8 +91,6 @@ button {
     left: 65%;
     background: rgb(32, 31, 31);
 }
-
-/* PART 3 END */
 
 .form ::placeholder{
     color: #fff;
