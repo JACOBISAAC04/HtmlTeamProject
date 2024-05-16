@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Link to the provided CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <a href="index.html#home" class="logo"><img src="img/jeep.png" alt=""></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#ride">Ride</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#reviews">Reviews</a></li>
+        </ul>
+
+
+        <div class="header-btn">
+            <a href="signup.html" class="sign-up">Sign Up</a>
+            <a href="signin.html" class="sign-in">Sign In</a>
+        </div>
+
+    </header>
+
+    <div class="signhome">
+        <!-- Sign Up Form -->
+        <section class="sign">
+            <h2>Sign Up</h2>
+            <form action="signup.php" method="post" class="form-container">
+                <div class="input-box">
+                    <span>Full Name</span>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="input-box">
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <span>Password</span>
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>
