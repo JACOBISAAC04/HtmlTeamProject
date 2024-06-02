@@ -29,6 +29,11 @@
                             <input type="text"
                             placeholder="Trivandrum">
                         </div>
+                        <div class="input-box">
+                            <span>Age :</span>
+                            <input type="text"
+                            placeholder="18">
+                        </div>
                         <div class="flex">
                             <div class="input-box">
                                 <span>State :</span>
@@ -61,6 +66,11 @@
                             <span>Exp. month :</span>
                             <input type="text"
                             placeholder="August">
+                        </div>
+                        <div class="input-box">
+                            <span>Aadhar Card number: :</span>
+                            <input type="text"
+                            placeholder="0000 1111 2222">
                         </div>
                         <div class="flex">
                             <div class="input-box">
