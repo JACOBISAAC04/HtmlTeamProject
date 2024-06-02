@@ -1,0 +1,26 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector('form');
+    const submitButton = document.querySelector('.btn');
+    
+    submitButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        let isValid = true;
+        const inputs = form.querySelectorAll('input');
+        
+        inputs.forEach(input => {
+            if (input.value.trim() === '') {
+                isValid = false;
+                input.style.borderColor = 'red';
+            } else {
+                input.style.borderColor = '#ccc';
+            }
+        });
+
+        if (isValid) {
+            form.submit();
+        } else {
+            alert('Please fill in all fields correctly.');
+        }
+    });
+});
